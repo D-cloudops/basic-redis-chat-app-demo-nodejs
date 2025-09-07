@@ -22,7 +22,7 @@ services:
       context: ./client/.
       dockerfile: dockerfile
     depends_on:
-      - frontend
+      - backend
     ports:
       - 8080:80
     networks:
